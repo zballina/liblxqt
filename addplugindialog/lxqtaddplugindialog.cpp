@@ -37,7 +37,7 @@
 #include <QDebug>
 #include <QTextBrowser>
 #include <QAbstractTextDocumentLayout>
-//#include <lxqt/lxqtplugininfo.h>
+#include <lxqt/lxqtplugininfo.h>
 
 #include <QLineEdit>
 #include "lxqttranslator.h"
