@@ -37,11 +37,11 @@ namespace Ui {
     class AddPluginDialog;
 }
 
-class PluginInfo;
-class PluginInfoList;
-
 namespace LxQt
 {
+
+class PluginInfo;
+class PluginInfoList;
 
 /*! The AddPluginDialog class provides a dialog that allow users to add plugins.
  */
