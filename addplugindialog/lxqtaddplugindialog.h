@@ -30,6 +30,8 @@
 #define LXQTADDPLUGINDIALOG_H
 
 #include <QDialog>
+#include <lxqt/lxqtplugininfo.h>
+
 
 #define SEARCH_DELAY 125
 
@@ -39,9 +41,6 @@ namespace Ui {
 
 namespace LxQt
 {
-
-class PluginInfo;
-class PluginInfoList;
 
 /*! The AddPluginDialog class provides a dialog that allow users to add plugins.
  */
