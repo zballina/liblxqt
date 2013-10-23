@@ -30,7 +30,6 @@
 #define LXQTADDPLUGINDIALOG_H
 
 #include <QDialog>
-#include <lxqtplugininfo.h>
 
 #define SEARCH_DELAY 125
 
@@ -38,6 +37,8 @@ namespace Ui {
     class AddPluginDialog;
 }
 
+class PluginInfo;
+class PluginInfoList;
 
 namespace LxQt
 {
@@ -64,7 +65,7 @@ public:
     void setPluginsInUse(const PluginInfoList pluginsInUse);
 
 signals:
-    void pluginSelected(const LxQt::PluginInfo &plugin);
+    void pluginSelected(const PluginInfo &plugin);
 
 protected:
     void timerEvent(QTimerEvent* event);
