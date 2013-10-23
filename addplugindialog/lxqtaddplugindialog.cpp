@@ -25,7 +25,6 @@
  *
  * END_COMMON_COPYRIGHT_HEADER */
 
-
 #include "lxqtaddplugindialog.h"
 #include "ui_lxqtaddplugindialog.h"
 #include <qtxdg/xdgicon.h>
@@ -39,7 +38,6 @@
 #include <QTextBrowser>
 #include <QAbstractTextDocumentLayout>
 //#include <lxqt/lxqtplugininfo.h>
-#include "lxqtplugininfo.h"
 
 #include <QLineEdit>
 #include "lxqttranslator.h"
